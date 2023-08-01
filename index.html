@@ -1,386 +1,557 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>My portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-<head>
-	<title>My portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
+  <body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+      <div class="top">
+        <!-- Logo -->
+        <div id="logo">
+          <span class="image avatar48"
+            ><img src="images/avatar.png" alt=""
+          /></span>
+          <h1 id="title">Renato Acciardi</h1>
+          <p>Flutter and Full-Stack Javascript</p>
+          <p>Developer</p>
+        </div>
 
-<body class="is-preload">
+        <!-- Nav -->
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="#top" id="top-link"
+                ><span class="icon solid fa-home">Intro</span></a
+              >
+            </li>
+            <li>
+              <a href="#portfolio" id="portfolio-link"
+                ><span class="icon solid fa-th">Portfolio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" id="about-link"
+                ><span class="icon solid fa-user">About Me</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" id="contact-link"
+                ><span class="icon solid fa-envelope">Contact</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-	<!-- Header -->
-	<div id="header">
+      <div class="bottom">
+        <!-- Social Icons -->
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/roland1308"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/renato-acciardi"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:acciardi.dev@gmail.com"
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
 
-		<div class="top">
+    <!-- Main -->
+    <div id="main">
+      <!-- Intro -->
+      <section id="top" class="one dark cover">
+        <div class="container">
+          <header>
+            <h2 class="alt">
+              Hi! I'm <strong>Renato</strong>,<br />
+              a <strong>passionate</strong> Flutter
+            </h2>
+            <h2>and Full-Stack Javascript Developer.</h2>
+            <p>
+              My specializations are FLUTTER and MERN Stack:<br />
+              React.js applications with Node.js, Express.js & MongoDB.
+            </p>
+          </header>
 
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/avatar.png" alt="" /></span>
-				<h1 id="title">Renato Acciardi</h1>
-				<p>Flutter and Full-Stack Javascript</p><p>Developer</p>
-			</div>
+          <footer>
+            <a href="#portfolio" class="button scrolly">Check it out</a>
+          </footer>
+        </div>
+      </section>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-					<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
-					</li>
-					<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
-					</li>
-				</ul>
-			</nav>
+      <!-- Portfolio WORK -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <header>
+            <h3>These are my WORK projects:</h3>
+          </header>
+          <div class="row">
+            <div class="col-12 col-12-mobile">
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>Millon App, Me Caso, A Prop Teu, Patti - @ Indalter</h2>
+                  <h3>
+                    Developing, Updating, Refactoring and Adding new features
+                  </h3>
+                  <hr />
+				  <img src="images/Stores.jpg" height="100" alt="" />
+                  <hr />
+                  <img class="image fit" src="images/Indalter.png" alt="" />
+                </header>
+                <a href="https://millonapp.es/" target="blank" class="button scrolly"><em>Millon App</em></a>
+                <a href="https://www.mecaso.net/" target="blank" class="button scrolly"><em>Me Caso</em></a>
+                <a href="https://www.diba.cat/comerc/apropteu" target="blank" class="button scrolly"><em>A Prop Teu</em></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		</div>
+      <!-- Portfolio PERSONAL -->
+      <section id="portfolio" class="two">
+        <div class="container">
+          <header>
+            <h3>These are my PERSONAL projects:</h3>
+          </header>
+          <div class="row">
+            <div class="col-12 col-12-mobile">
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>BookShare</h2>
+                  <h3>End of course project</h3>
+                  <p>Application to exchange / give / sell books.</p>
+                  <hr />
+                  <a href="" target="blank" class="image fit"
+                    ><img src="images/BookShare.png" alt=""
+                  /></a>
+                  <span class="tech">Flutter</span>
+                  <span class="tech">Dart</span>
+                  <span class="tech">Hero_Widget</span>
+                  <span class="tech">GetX_Provider</span>
+                  <span class="tech">External_and_internal_API_connection</span>
+                  <span class="tech">OpenLibrary.org_External_DB</span>
+                  <span class="tech">Animations</span>
+                  <span class="tech">Firebase_Cloud_messaging</span>
+                  <span class="tech">RealTime_chat</span>
+                  <span class="tech">Push_Notifications</span>
+                  <span class="tech">Geo_localization</span>
+                </header>
+                <a href="" class="button scrolly"
+                  ><em>BookShare</em> (Mobile App).</a
+                >
+                <a
+                  href="https://github.com/roland1308/bookshare"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>WordGame</h2>
+                  <h3>Second Flutter App</h3>
+                  <p>
+                    Second testing Flutter app, interactive multi-players game.
+                  </p>
+                  <hr />
+                  <a href="" target="blank" class="image fit"
+                    ><img src="images/WordGame.png" alt=""
+                  /></a>
+                  <span class="tech">Flutter</span>
+                  <span class="tech">Dart</span>
+                  <span class="tech">Fonts</span>
+                  <span class="tech">Sign_In</span>
+                  <span class="tech">Sign Up</span>
+                  <span class="tech">API_fetch</span>
+                  <span class="tech">GetX_Provider</span>
+                  <span class="tech">SnackBar</span>
+                  <span class="tech">Di alog_box</span>
+                </header>
+                <a href="" class="button scrolly"
+                  ><em>WordGame</em> (Mobile App).</a
+                >
+                <a
+                  href="https://github.com/roland1308/wordGame"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>InstaClone</h2>
+                  <h3>First Flutter App</h3>
+                  <p>
+                    First testing Flutter app, trying to emulate Instagram
+                    aspect.
+                  </p>
+                  <hr />
+                  <a href="" target="blank" class="image fit"
+                    ><img src="images/instaClone.png" alt=""
+                  /></a>
+                  <span class="tech">Flutter</span>
+                  <span class="tech">Dart</span>
+                  <span class="tech">Sign_In</span>
+                  <span class="tech">Rows</span>
+                  <span class="tech">Columns</span>
+                  <span class="tech">API_fetch</span>
+                  <span class="tech">Image_upload</span>
+                  <span class="tech">State_Management</span>
+                  <span class="tech">Tabs</span>
+                </header>
+                <a href="" class="button scrolly"
+                  ><em>InstaClone</em> (Mobile App).</a
+                >
+                <a
+                  href="https://github.com/roland1308/instaClone"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>My Movies DB</h2>
+                  <h3>React Native App</h3>
+                  <p>
+                    An app made to surf The Movie DataBase, looking for movies
+                    and tv series information and, if available, see the
+                    trailer.
+                    <br />
+                    Once registered it is possible to rate movies and tv series
+                    you liked so to see your friends' most liked too.
+                  </p>
+                  <hr />
+                  <a
+                    href="https://drive.google.com/file/d/1JoY90nb_u3E8oIMHUqflpipJs4ERy5j3/view?usp=sharing"
+                    target="blank"
+                    class="image fit"
+                    ><img src="images/mymoviesdb.png" alt=""
+                  /></a>
+                  <span class="tech">React_Native</span>
+                  <span class="tech">Redux</span>
+                  <span class="tech">AsyncStorage</span>
+                  <span class="tech">TMDB_API_access</span>
+                  <span class="tech">Kitten-UI</span>
+                  <span class="tech">Password_Encryption</span>
+                  <span class="tech">YouTube_iFrame</span>
+                  <span class="tech">Stars_rating_system</span>
+                  <span class="tech">Last_20_rated</span>
+                  <span class="tech">MongoDB</span>
+                  <span class="tech">Versionings</span>
+                  <span class="tech">YouTube_trailers_iFrame</span>
+                </header>
+                <a
+                  href="https://drive.google.com/file/d/1JoY90nb_u3E8oIMHUqflpipJs4ERy5j3/view?usp=sharing"
+                  class="button scrolly"
+                  >Try <em>My Movies DB</em> (Android APK).</a
+                >
+                <a
+                  href="https://github.com/roland1308/mymoviern"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>My Recipes</h2>
+                  <h3>Progressive Web App</h3>
+                  <p>
+                    With this app you can share a recipe's book with your family
+                    or your friends.
+                  </p>
+                  <hr />
+                  <a
+                    href="https://recipes2-9i2m.onrender.com"
+                    target="blank"
+                    class="image fit"
+                    ><img src="images/myrecipes.png" alt=""
+                  /></a>
+                  <span class="tech">MERN_Stack</span>
+                  <span class="tech">Redux</span>
+                  <span class="tech">Bootstrap</span>
+                  <span class="tech">Reactstrap</span>
+                  <span class="tech">Password_Encryption</span>
+                  <span class="tech">JWT_Authentication</span>
+                  <span class="tech">Drag&Drop</span>
+                  <span class="tech">24h_token_access</span>
+                  <span class="tech">Responsive</span>
+                  <span class="tech">Multilanguage</span>
+                  <span class="tech">Smart_search_function</span>
+                  <span class="tech">Favorites&Likes_management</span>
+                  <span class="tech">Sharing_through_email</span>
+                </header>
+                <a
+                  href="https://recipes2-9i2m.onrender.com"
+                  target="blank"
+                  class="button scrolly"
+                  >Try <em>My Recipes</em>: register (e-mail is not required)
+                  and use 'spain2020' as Book Code). Mobile optimized.</a
+                >
+                <a
+                  href="https://github.com/Roland1308/recetasmasovaires"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>MYtinerary</h2>
+                  <h3>Mobile App</h3>
+                  <p>
+                    An app made for travelers: they can discover itineraries,
+                    sharing their own experience.
+                  </p>
+                  <hr />
+                  <a
+                    href="https://agile-retreat-64885.herokuapp.com/"
+                    target="blank"
+                    class="image fit"
+                    ><img src="images/mytinerary.png" alt="" /></a
+                  ><span class="tech">MERN_Stack</span>
+                  <span class="tech">Redux</span>
+                  <span class="tech">Bootstrap</span>
+                  <span class="tech">Password_Encryption</span>
+                  <span class="tech">JWT_Authentication</span>
+                  <span class="tech">Materialize</span>
+                  <span class="tech">24h_token_access</span>
+                  <span class="tech">Google_&_GitHub_oAuth</span>
+                  <span class="tech">Responsive</span>
+                  <span class="tech">Search_function</span>
+                  <span class="tech">Favorites&Comments_management</span>
+                </header>
+                <a
+                  href="https://agile-retreat-64885.herokuapp.com/"
+                  target="blank"
+                  class="button scrolly"
+                  >Try <em>MYtinerary</em> on your mobile.</a
+                >
+                <a
+                  href="https://github.com/Roland1308/myitinerary"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>Bookstore</h2>
+                  <h3>Single Page Application</h3>
+                  <p>
+                    A web page to access a list of books (empty DB at the
+                    moment).
+                  </p>
+                  <hr />
+                  <a
+                    href="https://roland-bookstore-react-cdn.netlify.app/"
+                    target="blank"
+                    class="image fit"
+                    ><img src="images/bookstore.png" alt=""
+                  /></a>
+                  <span class="tech">React</span>
+                  <span class="tech">Bootstrap</span>
+                  <span class="tech">JSON_data</span>
+                  <span class="tech">FancyBox</span>
+                  <span class="tech">Multilanguage</span>
+                  <span class="tech">Search_&_Filtering_function</span>
+                </header>
+                <a
+                  href="https://roland-bookstore-react-cdn.netlify.app/"
+                  target="blank"
+                  class="button scrolly"
+                  >Try <em>BookStore</em>.</a
+                >
+                <a
+                  href="https://github.com/Roland1308/BookStore"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>Transparent Government In Fact</h2>
+                  <h3>Single Page Application</h3>
+                  <p>
+                    JavaScript web application (also versioned in Vue.js) for a
+                    non-partisan non-profit organization (TGIF). Its function is
+                    to involve the public in the government. The database is
+                    from the ProPublica Congress API.
+                  </p>
+                  <hr />
+                  <a
+                    href="https://roland-tgif-js.netlify.app/senate-data.html"
+                    target="blank"
+                    class="image fit"
+                    ><img src="images/tgif.png" alt=""
+                  /></a>
+                  <span class="tech">Vanilla_JavaScript</span>
+                  <span class="tech">Vue.js</span>
+                  <span class="tech">Bootstrap</span>
+                  <span class="tech">RESTful APIs</span>
+                  <span class="tech">Custom_Loading_Bar</span>
+                  <span class="tech">Sort_Search_&_Filtering_function</span>
+                </header>
+                <a
+                  href="https://roland-tgif-js.netlify.app/senate-data.html"
+                  target="blank"
+                  class="button scrolly"
+                  >Try <em>TGIF</em>.</a
+                >
+                <a
+                  href="https://github.com/Roland1308/TGIF-Project"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+              <article class="item">
+                <header>
+                  <hr />
+                  <h2>Northside Youth Soccer League</h2>
+                  <h3>Web Application</h3>
+                  <p>
+                    Website for the Northside Youth Soccer League (NYSL), to let
+                    parents stay update: blog style for upcoming events, game
+                    information schedules, rules and registration form.
+                  </p>
+                  <hr />
+                  <a
+                    href="https://roland-nysl.netlify.app/home.html"
+                    target="blank"
+                    class="image fit"
+                    ><img src="images/NYSL.png" alt=""
+                  /></a>
+                  <span class="tech">HTML5</span>
+                  <span class="tech">CSS3</span>
+                  <span class="tech">Animations</span>
+                  <span class="tech">Flexbox</span>
+                  <span class="tech">Form</span>
+                </header>
+                <a
+                  href="https://roland-nysl.netlify.app/home.html"
+                  target="blank"
+                  class="button scrolly"
+                  >Try <em>NYSL</em>.</a
+                >
+                <a
+                  href="https://github.com/Roland1308/NYSL-Project"
+                  target="blank"
+                  class="button scrolly icon brands fa-github"
+                  >_Check the repository.</a
+                >
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<div class="bottom">
+      <!-- About Me -->
+      <section id="about" class="three">
+        <div class="container">
+          <header>
+            <h2>About Me</h2>
+          </header>
 
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="https://github.com/roland1308" target="_blank" class="icon brands fa-github"><span
-							class="label">GitHub</span></a></li>
-				<li><a href="https://linkedin.com/in/renato-acciardi" target="_blank"
-						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="mailto:acciardi.dev@gmail.com" class="icon solid fa-envelope"><span
-							class="label">Email</span></a></li>
-			</ul>
+          <span
+            >I am passionate about programming, I like to find the logic to
+            solve problems. </span
+          ><br /><span>
+            I acquired an excellent knowledge of Flutter, Dart, HTML5, CSS3,
+            JavaScript , Vue.js, React.js, React Native, Node.js, MongoDB,
+            Express.js.</span
+          ><br />
+          <span
+            >I am a person with sense of humor, happy to work in a team and to
+            listen / propose ideas to improve and simplify things. I am a
+            dreamer, with imagination but capable of specifying solutions to
+            briefly solve complex situations.
+          </span>
+        </div>
+      </section>
 
-		</div>
+      <!-- Contact -->
+      <section id="contact" class="four">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://github.com/roland1308"
+              target="_blank"
+              class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/renato-acciardi"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">Dribbble</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:acciardi.dev@gmail.com"
+              class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
 
-	</div>
+    <!-- Footer -->
+    <div id="footer">
+      <!-- Copyright -->
+      <ul class="copyright">
+        <li>&copy; Acciardi Renato. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
 
-	<!-- Main -->
-	<div id="main">
-
-		<!-- Intro -->
-		<section id="top" class="one dark cover">
-			<div class="container">
-
-				<header>
-					<h2 class="alt">Hi! I'm <strong>Renato</strong>,<br /> a <strong>passionate</strong> Flutter</h2>
-						<h2>and Full-Stack Javascript Developer.</h2>
-					<p>My specializations are FLUTTER and MERN Stack:<br />
-						React.js applications with Node.js, Express.js & MongoDB.</p>
-				</header>
-
-				<footer>
-					<a href="#portfolio" class="button scrolly">Check it out</a>
-				</footer>
-
-			</div>
-		</section>
-
-		<!-- Portfolio -->
-		<section id="portfolio" class="two">
-			<div class="container">
-				<header>
-					<h3>These are my last projects:</h3>
-				</header>
-				<div class="row">
-					<div class="col-12 col-12-mobile">
-						<article class="item">
-							<header>
-								<hr />
-								<h2>BookShare</h2>
-								<h3>End of course project</h3>
-								<p>
-									Application to exchange / give / sell books.
-								</p>
-								<hr />
-								<a href=""
-									target="blank" class="image fit"><img src="images/BookShare.png" alt="" /></a>
-								<span class="tech">Flutter</span>
-								<span class="tech">Dart</span>
-								<span class="tech">Hero_Widget</span>
-								<span class="tech">GetX_Provider</span>
-								<span class="tech">External_and_internal_API_connection</span>
-								<span class="tech">OpenLibrary.org_External_DB</span>
-								<span class="tech">Animations</span>
-								<span class="tech">Firebase_Cloud_messaging</span>
-								<span class="tech">RealTime_chat</span>
-								<span class="tech">Push_Notifications</span>
-								<span class="tech">Geo_localization</span>
-							</header>
-							<a href=""
-								class="button scrolly"><em>BookShare</em> (Mobile App).</a>
-							<a href="https://github.com/roland1308/bookshare" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>WordGame</h2>
-								<h3>Second Flutter App</h3>
-								<p>
-									Second testing Flutter app, interactive multi-players game.
-								</p>
-								<hr />
-								<a href=""
-									target="blank" class="image fit"><img src="images/WordGame.png" alt="" /></a>
-								<span class="tech">Flutter</span>
-								<span class="tech">Dart</span>
-								<span class="tech">Fonts</span>
-								<span class="tech">Sign_In</span>
-								<span class="tech">Sign Up</span>
-								<span class="tech">API_fetch</span>
-								<span class="tech">GetX_Provider</span>
-								<span class="tech">SnackBar</span>
-								<span class="tech">Di	alog_box</span>
-							</header>
-							<a href=""
-								class="button scrolly"><em>WordGame</em> (Mobile App).</a>
-							<a href="https://github.com/roland1308/wordGame" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>InstaClone</h2>
-								<h3>First Flutter App</h3>
-								<p>
-									First testing Flutter app, trying to emulate Instagram aspect.
-								</p>
-								<hr />
-								<a href=""
-									target="blank" class="image fit"><img src="images/instaClone.png" alt="" /></a>
-								<span class="tech">Flutter</span>
-								<span class="tech">Dart</span>
-								<span class="tech">Sign_In</span>
-								<span class="tech">Rows</span>
-								<span class="tech">Columns</span>
-								<span class="tech">API_fetch</span>
-								<span class="tech">Image_upload</span>
-								<span class="tech">State_Management</span>
-								<span class="tech">Tabs</span>
-							</header>
-							<a href=""
-								class="button scrolly"><em>InstaClone</em> (Mobile App).</a>
-							<a href="https://github.com/roland1308/instaClone" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>My Movies DB</h2>
-								<h3>React Native App</h3>
-								<p>
-									An app made to surf The Movie DataBase, looking for movies and tv series
-									information and, if available, see the trailer.
-									<br />
-									Once registered it is possible to rate movies and tv series you liked so to see your
-									friends' most liked too.
-								</p>
-								<hr />
-								<a href="https://drive.google.com/file/d/1JoY90nb_u3E8oIMHUqflpipJs4ERy5j3/view?usp=sharing"
-									target="blank" class="image fit"><img src="images/mymoviesdb.png" alt="" /></a>
-								<span class="tech">React_Native</span>
-								<span class="tech">Redux</span>
-								<span class="tech">AsyncStorage</span>
-								<span class="tech">TMDB_API_access</span>
-								<span class="tech">Kitten-UI</span>
-								<span class="tech">Password_Encryption</span>
-								<span class="tech">YouTube_iFrame</span>
-								<span class="tech">Stars_rating_system</span>
-								<span class="tech">Last_20_rated</span>
-								<span class="tech">MongoDB</span>
-								<span class="tech">Versionings</span>
-								<span class="tech">YouTube_trailers_iFrame</span>
-							</header>
-							<a href="https://drive.google.com/file/d/1JoY90nb_u3E8oIMHUqflpipJs4ERy5j3/view?usp=sharing"
-								class="button scrolly">Try <em>My Movies DB</em> (Android APK).</a>
-							<a href="https://github.com/roland1308/mymoviern" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>My Recipes</h2>
-								<h3>Progressive Web App</h3>
-								<p>With this app you can share a recipe's book with your family or your friends.</p>
-								<hr />
-								<a href="https://recipes2-9i2m.onrender.com" target="blank" class="image fit"><img
-										src="images/myrecipes.png" alt="" /></a>
-								<span class="tech">MERN_Stack</span>
-								<span class="tech">Redux</span>
-								<span class="tech">Bootstrap</span>
-								<span class="tech">Reactstrap</span>
-								<span class="tech">Password_Encryption</span>
-								<span class="tech">JWT_Authentication</span>
-								<span class="tech">Drag&Drop</span>
-								<span class="tech">24h_token_access</span>
-								<span class="tech">Responsive</span>
-								<span class="tech">Multilanguage</span>
-								<span class="tech">Smart_search_function</span>
-								<span class="tech">Favorites&Likes_management</span>
-								<span class="tech">Sharing_through_email</span>
-							</header>
-							<a href="https://recipes2-9i2m.onrender.com" target="blank" class="button scrolly">Try
-								<em>My
-									Recipes</em>: register (e-mail is not required) and use 'spain2020' as Book Code). Mobile optimized.</a>
-							<a href="https://github.com/Roland1308/recetasmasovaires" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>MYtinerary</h2>
-								<h3>Mobile App</h3>
-								<p>An app made for travelers: they can discover itineraries, sharing their
-									own experience.</p>
-								<hr />
-								<a href="https://agile-retreat-64885.herokuapp.com/" target="blank"
-									class="image fit"><img src="images/mytinerary.png" alt="" /></a><span
-									class="tech">MERN_Stack</span>
-								<span class="tech">Redux</span>
-								<span class="tech">Bootstrap</span>
-								<span class="tech">Password_Encryption</span>
-								<span class="tech">JWT_Authentication</span>
-								<span class="tech">Materialize</span>
-								<span class="tech">24h_token_access</span>
-								<span class="tech">Google_&_GitHub_oAuth</span>
-								<span class="tech">Responsive</span>
-								<span class="tech">Search_function</span>
-								<span class="tech">Favorites&Comments_management</span>
-							</header>
-							<a href="https://agile-retreat-64885.herokuapp.com/" target="blank"
-								class="button scrolly">Try
-								<em>MYtinerary</em> on your mobile.</a>
-							<a href="https://github.com/Roland1308/myitinerary" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>Bookstore</h2>
-								<h3>Single Page Application</h3>
-								<p>A web page to access a list of books (empty DB at the moment).</p>
-								<hr />
-								<a href="https://roland-bookstore-react-cdn.netlify.app/" target="blank"
-									class="image fit"><img src="images/bookstore.png" alt="" /></a>
-								<span class="tech">React</span>
-								<span class="tech">Bootstrap</span>
-								<span class="tech">JSON_data</span>
-								<span class="tech">FancyBox</span>
-								<span class="tech">Multilanguage</span>
-								<span class="tech">Search_&_Filtering_function</span>
-							</header>
-							<a href="https://roland-bookstore-react-cdn.netlify.app/" target="blank"
-								class="button scrolly">Try
-								<em>BookStore</em>.</a>
-							<a href="https://github.com/Roland1308/BookStore" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>Transparent Government In Fact</h2>
-								<h3>Single Page Application</h3>
-								<p>JavaScript web application (also versioned in Vue.js) for a non-partisan non-profit
-									organization (TGIF). Its
-									function
-									is to involve the public in the government. The database is from the ProPublica
-									Congress API.</p>
-								<hr />
-								<a href="https://roland-tgif-js.netlify.app/senate-data.html" target="blank"
-									class="image fit"><img src="images/tgif.png" alt="" /></a>
-								<span class="tech">Vanilla_JavaScript</span>
-								<span class="tech">Vue.js</span>
-								<span class="tech">Bootstrap</span>
-								<span class="tech">RESTful APIs</span>
-								<span class="tech">Custom_Loading_Bar</span>
-								<span class="tech">Sort_Search_&_Filtering_function</span>
-							</header>
-							<a href="https://roland-tgif-js.netlify.app/senate-data.html" target="blank"
-								class="button scrolly">Try
-								<em>TGIF</em>.</a>
-							<a href="https://github.com/Roland1308/TGIF-Project" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-						<article class="item">
-							<header>
-								<hr />
-								<h2>Northside Youth Soccer League</h2>
-								<h3>Web Application</h3>
-								<p>Website for the Northside Youth Soccer League (NYSL), to let parents stay update:
-									blog
-									style for upcoming events, game information schedules, rules and registration form.
-								</p>
-								<hr />
-								<a href="https://roland-nysl.netlify.app/home.html" target="blank"
-									class="image fit"><img src="images/NYSL.png" alt="" /></a>
-								<span class="tech">HTML5</span>
-								<span class="tech">CSS3</span>
-								<span class="tech">Animations</span>
-								<span class="tech">Flexbox</span>
-								<span class="tech">Form</span>
-							</header>
-							<a href="https://roland-nysl.netlify.app/home.html" target="blank"
-								class="button scrolly">Try
-								<em>NYSL</em>.</a>
-							<a href="https://github.com/Roland1308/NYSL-Project" target="blank"
-								class="button scrolly icon brands fa-github">_Check the repository.</a>
-						</article>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- About Me -->
-		<section id="about" class="three">
-			<div class="container">
-
-				<header>
-					<h2>About Me</h2>
-				</header>
-
-				<span>I am passionate about programming, I like to find the logic to solve problems.
-				</span><br /><span> I acquired an excellent knowledge of Flutter, Dart, HTML5, CSS3, JavaScript , Vue.js, React.js, React Native,
-					Node.js, MongoDB, Express.js.</span><br />
-				<span>I am a person with sense of humor, happy to work in a team and to listen / propose ideas to
-					improve and simplify things. I am a dreamer, with imagination but capable of specifying solutions to
-					briefly solve complex situations.
-				</span>
-
-			</div>
-		</section>
-
-		<!-- Contact -->
-		<section id="contact" class="four">
-			<ul class="icons">
-				<li><a href="https://github.com/roland1308" target="_blank" class="icon brands fa-github"><span
-							class="label">Github</span></a></li>
-				<li><a href="https://linkedin.com/in/renato-acciardi" target="_blank"
-						class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>
-				<li><a href="mailto:acciardi.dev@gmail.com" class="icon solid fa-envelope"><span
-							class="label">Email</span></a></li>
-			</ul>
-		</section>
-
-	</div>
-
-	<!-- Footer -->
-	<div id="footer">
-
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Acciardi Renato. All rights reserved.</li>
-			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
